@@ -130,7 +130,6 @@ export const Detail = ({navigation}) => {
                 <View style={styles.production_container}>
                   {detailData.production_companies.map((val, i) => {
                       let productionLink="https://image.tmdb.org/t/p/original"+val.logo_path;
-                      console.log(productionLink);
                     if(val.logo_path!=undefined && val.logo_path!=null){
                         return (
                             <View key={i}>
